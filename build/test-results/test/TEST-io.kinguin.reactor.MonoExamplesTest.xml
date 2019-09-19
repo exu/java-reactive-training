@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.kinguin.reactor.MonoExamplesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-19T12:01:33" hostname="ion-cannon" time="0.221">
-  <properties/>
-  <testcase name="getElementFromMono_returnsSingleElementFromMonoStream()" classname="io.kinguin.reactor.MonoExamplesTest" time="0.221"/>
-  <system-out><![CDATA[14:01:33.271 [Test worker] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
