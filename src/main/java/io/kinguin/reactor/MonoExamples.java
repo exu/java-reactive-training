@@ -4,7 +4,7 @@ import io.kinguin.model.Person;
 import reactor.core.publisher.Mono;
 
 public class MonoExamples {
-    public Person getElementFromMono(Mono<Person> person) {
-        return null;
+    public Person getElementFromMono(Mono<Person> personMono) {
+        return personMono.block();
     }
 }
