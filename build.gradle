@@ -18,8 +18,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-rsocket'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	implementation 'io.reactivex.rxjava2:rxjava'
+	implementation 'io.projectreactor:reactor-test'
+	implementation 'org.assertj:assertj-core'
 	testImplementation 'io.projectreactor:reactor-test'
 	testImplementation 'org.assertj:assertj-core'
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
 
 }
 
